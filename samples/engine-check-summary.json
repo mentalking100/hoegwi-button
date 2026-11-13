@@ -1,0 +1,106 @@
+{
+  "sourceVersion": "0.50.3",
+  "baselineVersion": "0.41.1",
+  "report": "engine-equivalence-results.json",
+  "passed": true,
+  "commandComparisons": 16,
+  "completedMonths": 3,
+  "results": [
+    {
+      "type": "SET_ROUTINES",
+      "accepted": true,
+      "equal": true,
+      "completedMonths": null
+    },
+    {
+      "type": "SET_ROUTINES",
+      "accepted": false,
+      "equal": true,
+      "completedMonths": null
+    },
+    {
+      "type": "SET_ROUTINES",
+      "accepted": true,
+      "equal": true,
+      "completedMonths": null
+    },
+    {
+      "type": "SET_ROUTINES",
+      "accepted": true,
+      "equal": true,
+      "completedMonths": null
+    },
+    {
+      "type": "CHANGE_JOB",
+      "accepted": true,
+      "equal": true,
+      "completedMonths": null
+    },
+    {
+      "type": "ADVANCE",
+      "accepted": true,
+      "equal": true,
+      "completedMonths": null
+    },
+    {
+      "type": "ADVANCE",
+      "accepted": false,
+      "equal": true,
+      "completedMonths": null
+    },
+    {
+      "type": "ADVANCE",
+      "accepted": false,
+      "equal": true,
+      "completedMonths": null
+    },
+    {
+      "type": "RESOLVE_EVENT",
+      "accepted": true,
+      "equal": true,
+      "completedMonths": 0
+    },
+    {
+      "type": "RESOLVE_EVENT",
+      "accepted": true,
+      "equal": true,
+      "completedMonths": 1
+    },
+    {
+      "type": "ADVANCE",
+      "accepted": true,
+      "equal": true,
+      "completedMonths": 1
+    },
+    {
+      "type": "RESOLVE_EVENT",
+      "accepted": true,
+      "equal": true,
+      "completedMonths": 1
+    },
+    {
+      "type": "RESOLVE_EVENT",
+      "accepted": true,
+      "equal": true,
+      "completedMonths": 2
+    },
+    {
+      "type": "ADVANCE",
+      "accepted": true,
+      "equal": true,
+      "completedMonths": 2
+    },
+    {
+      "type": "RESOLVE_EVENT",
+      "accepted": true,
+      "equal": true,
+      "completedMonths": 2
+    },
+    {
+      "type": "RESOLVE_EVENT",
+      "accepted": true,
+      "equal": true,
+      "completedMonths": 3
+    }
+  ]
+}
