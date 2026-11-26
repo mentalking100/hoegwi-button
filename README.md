@@ -10,6 +10,20 @@
 
 화면은 0.50.3 버전의 플레이 화면입니다.
 
+## 0.50.9 개발 빌드
+
+| 오늘 | 만남 |
+| --- | --- |
+| <img src="screenshots/today-v0509.png" alt="0.50.9 오늘 화면" width="235"> | <img src="screenshots/encounter-v0509.png" alt="0.50.9 만남 화면" width="235"> |
+
+Android 빌드 25에서 캡처한 화면입니다. [사업 월간 정산 코드](samples/venture-month.js)는 사업별 최고 월 순이익을 저장합니다. 첫 달에 손실이 나면 실제 손실액을 최초 기록으로 남기고, 이후 더 높은 월 순이익이 생기면 기록을 갱신합니다. 큰 금액은 정수 정밀도를 유지하도록 비교합니다.
+
+[정산 회귀 테스트](samples/venture-month.test.cjs)는 이전 저장 데이터, 첫 달 손실, 손익분기, 큰 정수, 복수 사업의 기록 분리를 확인합니다. 공개된 두 예제는 아래 명령으로 검증할 수 있습니다.
+
+```sh
+node --test samples/monthly-plan.test.cjs samples/venture-month.test.cjs
+```
+
 ## 기획과 출시
 
 - 과거로 돌아가 투자한다는 아이디어를 월 단위 인생 시뮬레이션으로 기획했습니다. 투자에 쓴 돈이 이후 생활 선택에도 영향을 주도록 예산, 직업, 주거를 한 흐름으로 설계했습니다.
